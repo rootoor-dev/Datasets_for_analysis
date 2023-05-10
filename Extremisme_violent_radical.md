@@ -1,0 +1,7 @@
+Le jeu de données généré représente les réponses aléatoires d'un questionnaire basé sur une échelle de Likert à 7 niveaux, complété par 400 participants. Le questionnaire aborde différents facteurs liés à l'extrémisme violent radicalisé, notamment : vols_betail, injustice, mal_gouvernance, religion, pauvrete, mimetisme, politique, ignorance, probleme_education, egoisme, conflit_ethnique, chomage, orgueil, âge et sexe.
+
+Chaque participant a fourni des réponses pour chaque facteur. Les réponses pour les facteurs vols_betail, injustice, mal_gouvernance, religion, pauvrete, mimetisme, politique, ignorance, probleme_education, egoisme, conflit_ethnique, chomage et orgueil sont évaluées sur une échelle de Likert à 7 niveaux, allant de 1 (très faible) à 7 (très élevé).
+
+Le facteur "âge" représente l'âge des participants et prend des valeurs dans l'intervalle de 12 à 70 ans. Le facteur "sexe" indique le sexe des participants, avec une proportion d'hommes légèrement supérieure à celle des femmes dans ce jeu de données.
+
+Le jeu de données est enregistré dans un fichier Excel nommé "questionnaire_reponses.xlsx". Chaque ligne du fichier correspond à un participant différent, tandis que les colonnes représentent les facteurs du questionnaire. Les réponses aléatoires sont enregistrées dans les cellules correspondantes, avec les entiers de 1 à 7 pour les échelles de Likert, l'âge pour le facteur "âge", et les valeurs "Homme" ou "Femme" pour le facteur "sexe".
