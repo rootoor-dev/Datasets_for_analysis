@@ -16,7 +16,7 @@ Les items ont été recueillies à l’aide d’une échelle de réponse en 6 po
 
 D’abord, il nous faut des données. Vingt-cinq éléments d’auto-évaluation de la personnalité 
 (voir Figure 15‑2) tirés de l’International Personality Item Pool () ont été inclus dans le 
-cadre du projet SAPA (Synthetic Aperture Personality Assessment) sur le Web (SAPA)[https://www.sapa-project.org/survey/demographics.php] 
+cadre du projet SAPA (Synthetic Aperture Personality Assessment) sur le Web [SAPA](https://www.sapa-project.org/survey/demographics.php)
 Les 25 items sont organisés selon cinq facteurs présumés : 
 - Agréabilité, 
 - Conscience, 
@@ -34,8 +34,8 @@ Les 25 items sont organisés selon cinq facteurs présumés :
 
 
 [Sources]
-- (les données de la pratique: bfi_sample.csv)[https://jmeunierp8.github.io/ManuelJamovi/data/bfi_sample.csv]
-- (Articles intéressants avec jeux de données pouvant servir)[https://www.academia.edu/161100/Synthetic_Aperture_Personality_Assessment]
-- (ébauche de l'analyse AFE des données bfi_sample.csv)[https://jmeunierp8.github.io/ManuelJamovi/s15.html]
+- [les données de la pratique: bfi_sample.csv](https://jmeunierp8.github.io/ManuelJamovi/data/bfi_sample.csv)
+- [Articles intéressants avec jeux de données pouvant servir](https://www.academia.edu/161100/Synthetic_Aperture_Personality_Assessment)
+- [ébauche de l'analyse AFE des données bfi_sample.csv](https://jmeunierp8.github.io/ManuelJamovi/s15.html)
 
 
