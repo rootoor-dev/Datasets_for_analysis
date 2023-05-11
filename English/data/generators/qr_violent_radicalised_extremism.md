@@ -20,27 +20,27 @@ if (!requireNamespace("writexl", quietly = TRUE)) {
 library(writexl)
 
 # Définir les facteurs et les participants
-facteurs <- c( "age", "sexe", "vols_betail", "injustice", "mal_gouvernance", "religion", "pauvrete",
+facteurs <- c("vols_betail", "injustice", "mal_gouvernance", "religion", "pauvrete",
               "mimetisme", "politique", "ignorance", "probleme_education", "egoisme",
-              "conflit_ethnique", "chomage", "orgueil")
+              "conflit_ethnique", "chomage", "orgueil", "age", "sexe")
 participants <- 3000
 
 # Définir les bornes d'âge
 age_min <- 12
 age_max <- 70
 
+# Définir les proportions de sexe
+prop_hommes <- 0.75
+prop_femmes <- 0.25
+
 # Générer les âges aléatoirement pour les participants
 ages <- sample(age_min:age_max, participants, replace = TRUE)
-
-# Définir les proportions de sexe
-prop_hommes <- 0.75     # changer selon vos besoins : 0.55
-prop_femmes <- 0.25     # changer selon vos besoins : 0.45
 
 # Calculer le nombre d'hommes et de femmes en fonction des proportions
 nb_hommes <- round(participants * prop_hommes)
 nb_femmes <- participants - nb_hommes
 
-# Générer les sexes aléatoirement pour les participants en respectant le nombre d'hommes et de femmes
+# Générer les sexes aléatoirement pour les participants en respectant les proportions
 sexes <- c(rep("Homme", nb_hommes), rep("Femme", nb_femmes))
 sexes <- sample(sexes)
 
@@ -67,8 +67,7 @@ reponses_df <- as.data.frame(reponses)
 colnames(reponses_df) <- facteurs
 
 # Enregistrer le data frame dans un fichier Excel
-write_xlsx(reponses_df, "qr_extremisme_violent_radicalise.xlsx")
-
+write_xlsx(reponses_df, "questionnaire_reponses.xlsx")
 
 ```
 # TRAVAIL A FAIRE
