@@ -1,3 +1,15 @@
+# OBJECTIF
+On souhaite faire une  étude sur le thème suivant **"apport de l'apprentissage de la Physique-Chimie aux élèves littéraires d'un lycée (fictif)."**.
+Pour mener à bien cette étude, on établit un questionnaire de 50 questionnaires qu'on fait remplir selon l'une des techniques d'échantillonnage, à des élèves en série littéraire d'un lycée d'un pays donné.
+Voir les items du questionnaire ici : (https://github.com/rootoor-dev/Datasets_for_analysis/edit/main/survey/questionnaire.txt)[questionnaire.txt].
+
+N'ayant pas le fichier brut de cette enquête, on souhaite le réconstituer sur la base des informations suivantes : 
+dans le questionnaire, 
+- Devant chaque item se trouve les proportions sur une échelle de likert de réponses données par l'ensemble des participants.
+- Les trois premiers caractères devant chaque item suivi du caractère "." représentent l'identifiant de l'item en question.
+
+**Sachant que les items sont disposés en colonnes, on veut écrire un code qui génère deux fichiers Excel (xlsx et csv) comportant les réponses de N participants à cette enquête. **
+
 # FRENCH
 on veut faire les choses de façon inversée. En effet, on souhaite produire des données de types likert qui 
 serviront à faire une analyse factorielle exploratoire. La génération aléatoire ne produit pas les résultats 
@@ -23,6 +35,18 @@ pour générer des ensembles de données aléatoires et évaluer chaque ensemble
 Nous pouvons ensuite sélectionner l'ensemble de données qui répond le mieux à nos critères.
 
 # ENGLISH
+
+# OBJECTIVE
+We want to do a study on the following theme **"contribution of learning Physics-Chemistry to literary students in a high school (fictitious)."**.
+To carry out this study, we draw up a questionnaire of 50 questionnaires which we have filled in using one of the sampling techniques, by pupils in a literary series in a high school in a given country.
+See the survey items here: (https://github.com/rootoor-dev/Datasets_for_analysis/edit/main/survey/questionnaire.txt)[questionnaire.txt].
+
+Not having the raw file of this survey, we wish to reconstitute it on the basis of the following information:
+in the quiz,
+- In front of each item is the proportions on a likert scale of answers given by all the participants.
+- The first three characters in front of each item followed by the character "." represent the identifier of the item in question.
+
+**Knowing that the items are arranged in columns, we want to write a code that generates two Excel files (xlsx and csv) containing the responses of N participants in this survey. **
 
 we want to do things in reverse. Indeed, we want to produce data of likert types which
 will be used for an exploratory factor analysis. Random generation does not produce the results
@@ -66,6 +90,21 @@ pour l'alpha de Cronbach). Voici un exemple de code pour générer des données 
 100 participants, 3 facteurs distincts et un alpha de Cronbach minimum de 0.7 :
 ```
 
+```
+This code generates random data using a covariance matrix
+based on random factors and random factor loads with
+a unit variance. It also adds measurement error to simulate
+the variability of participants' responses. The code then uses a loop
+while to generate new data until the criteria of alpha and d
+number of factors are satisfied.
+
+You can then use this function to generate data by specifying
+the parameters num_items (the number of items in your questionnaire), num_participants
+(the number of participants for which you want to simulate responses), num_factors
+(the number of factors you want to get) and alpha (the minimum value you want
+for Cronbach's alpha). Here is a sample code to generate data with 10 items,
+100 participants, 3 distinct factors and a minimum Cronbach's alpha of 0.7:
+```
 
 
 
