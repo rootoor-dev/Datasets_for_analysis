@@ -10,7 +10,7 @@ dans le questionnaire,
 - Devant chaque item se trouve les proportions sur une échelle de likert de réponses données par l'ensemble des participants.
 - Les trois premiers caractères devant chaque item suivi du caractère "." représentent l'identifiant de l'item en question.
 
-**Sachant que les items sont disposés en colonnes, on veut écrire un code qui génère deux fichiers Excel (xlsx et csv) comportant les réponses de N participants à cette enquête. **
+**Sachant que les items sont disposés en colonnes, on veut écrire un code qui génère deux fichiers Excel (xlsx et csv) comportant les réponses de N participants à cette enquête.**
 
 # FRENCH
 on veut faire les choses de façon inversée. En effet, on souhaite produire des données de types likert qui 
@@ -41,14 +41,16 @@ Nous pouvons ensuite sélectionner l'ensemble de données qui répond le mieux �
 # OBJECTIVE
 We want to do a study on the following theme **"contribution of learning Physics-Chemistry to literary students in a high school (fictitious)."**.
 To carry out this study, we draw up a questionnaire of 50 questionnaires which we have filled in using one of the sampling techniques, by pupils in a literary series in a high school in a given country.
-See the survey items here: (https://github.com/rootoor-dev/Datasets_for_analysis/edit/main/survey/questionnaire.txt)[questionnaire.txt].
+See the survey items here: 
+- [questionnaire.txt](https://github.com/rootoor-dev/Datasets_for_analysis/blob/main/survey/questionnaire.txt).
+- [questionnaire.md with details](https://github.com/rootoor-dev/Datasets_for_analysis/blob/main/survey/questionnaire.md)
 
 Not having the raw file of this survey, we wish to reconstitute it on the basis of the following information:
 in the quiz,
 - In front of each item is the proportions on a likert scale of answers given by all the participants.
 - The first three characters in front of each item followed by the character "." represent the identifier of the item in question.
 
-**Knowing that the items are arranged in columns, we want to write a code that generates two Excel files (xlsx and csv) containing the responses of N participants in this survey. **
+**Knowing that the items are arranged in columns, we want to write a code that generates two Excel files (xlsx and csv) containing the responses of N participants in this survey.**
 
 we want to do things in reverse. Indeed, we want to produce data of likert types which
 will be used for an exploratory factor analysis. Random generation does not produce the results
