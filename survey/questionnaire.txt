@@ -1,4 +1,14 @@
-voici le questionnaire avec 10 items par composante :
+# échelle de Likert utilisée : 
+
+1 - fortement en désaccord
+2- en désaccord
+3- moyennement en désaccord
+4- Neutre ou sans avis
+5- moyennement d'accord
+6- d'accord
+7- fortement d'accord
+
+# voici le questionnaire avec 10 items par composante :
 
 Curiosité scientifique :
 1. Je suis curieux(se) d'en apprendre plus sur les sujets scientifiques.
