@@ -3,7 +3,7 @@ on veut faire les choses de façon inversée. En effet, on souhaite produire des
 serviront à faire une analyse factorielle exploratoire. La génération aléatoire ne produit pas les résultats 
 escomptés ou attendus.
 
-Ces résultats attendus sont les suivant:
+Ces résultats attendus sont les suivants:
 
 - possibilité d'avoir un coefficient alpha de Cronbach supérieur à 0.7 et inférieur à 1
 - possibilité d'avoir un nombre raisonnable de facteurs distincs (supérieur à 2)
