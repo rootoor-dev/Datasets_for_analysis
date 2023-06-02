@@ -1,6 +1,6 @@
 # OBJECTIF
 On souhaite faire une  étude sur le thème suivant **"apport de l'apprentissage de la Physique-Chimie aux élèves littéraires d'un lycée (fictif)."**.
-Pour mener à bien cette étude, on établit un questionnaire de 50 questionnaires qu'on fait remplir selon l'une des techniques d'échantillonnage, à des élèves en série littéraire d'un lycée d'un pays donné.
+Pour mener à bien cette étude, on établit un questionnaire de 50 items qu'on fait remplir selon l'une des techniques d'échantillonnage, à des élèves en série littéraire d'un lycée d'un pays donné.
 Voir les items du questionnaire ici : [questionnaire.txt](https://github.com/rootoor-dev/Datasets_for_analysis/edit/main/survey/questionnaire.tx).
 
 N'ayant pas le fichier brut de cette enquête, on souhaite le réconstituer sur la base des informations suivantes : 
